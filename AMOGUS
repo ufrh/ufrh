@@ -60,7 +60,7 @@ end)
 
 btns:Seperator()
 
-local btnss = serv:Channel("Player")
+local btnss = serv:Channel("Combat")
 
 btnss:Button("Fly (X)", function()
  plr = game.Players.LocalPlayer
@@ -175,11 +175,6 @@ local mouse = plr:GetMouse()
 end)
 
 btnss:Button("Auto Rob", function()
---[[
-Da Hood auto rob script by Amnesia
-I know script became a bit monkey code but i am lazy to make it look better
-I didn't obfuscate it because why not
-]]
 repeat
     wait()
 until game:IsLoaded()
@@ -264,4 +259,6 @@ while shared.MoneyFarm do
         end
     end
     wait(1)
+end
 end)
+
