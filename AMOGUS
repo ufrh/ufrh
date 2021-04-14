@@ -357,4 +357,4 @@ while shared.MoneyFarm do
         end
     end
     wait(1)
-end)
+end
