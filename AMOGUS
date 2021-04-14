@@ -262,152 +262,64 @@ while shared.MoneyFarm do
 end
 end)
 
-btnss:Button("Nuke", function()
-	local aplr = game.Players.LocalPlayer  
+btnss:Button("Anti Stomp", function()
+wait(0) local A_1 = "-AMOGUS- Anti Stomp Enabled" local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
  
-	     aplr.Character.HumanoidRootPart.CFrame = CFrame.new (108.825, -29.649, -272.389)
-	        wait(.1)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	wait (.5)
-	        aplr.Character.HumanoidRootPart.CFrame = CFrame.new (108.825, -29.649, -272.389)
-	        wait(.1)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	wait(.5)
-	        aplr.Character.HumanoidRootPart.CFrame = CFrame.new (108.825, -29.649, -272.389)
-	        wait(.1)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	wait(.5)
-	        aplr.Character.HumanoidRootPart.CFrame = CFrame.new (108.825, -29.649, -272.389)
-	        wait(.1)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	wait(.5)
-	       aplr.Character.HumanoidRootPart.CFrame = CFrame.new (108.825, -29.649, -272.389)
-	        wait(.1)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	wait(.5)
-	        aplr.Character.HumanoidRootPart.CFrame = CFrame.new (108.825, -29.649, -272.389)
-	        wait(.1)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	wait(.5)
-	        aplr.Character.HumanoidRootPart.CFrame = CFrame.new (108.825, -29.649, -272.389)
-	        wait(.1)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	wait(.5)
-	        aplr.Character.HumanoidRootPart.CFrame = CFrame.new (108.825, -29.649, -272.389)
-	        wait(.1)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	wait (.5)
-	       aplr.Character.HumanoidRootPart.CFrame = CFrame.new (108.825, -29.649, -272.389)
-	        wait(.1)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	wait(.5)
-	        aplr.Character.HumanoidRootPart.CFrame = CFrame.new (108.825, -29.649, -272.389)
-	        wait(.1)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	wait(.5)
-	        aplr.Character.HumanoidRootPart.CFrame = CFrame.new (108.825, -29.649, -272.389)
-	        wait(.1)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	        fireclickdetector(game.Workspace.Ignored.Shop['[Grenade] - $1250'].ClickDetector)
-	--script
-	local plr = game:GetService('Players').LocalPlayer.Character
-	plr.HumanoidRootPart.CFrame = CFrame.new(-413.031921, 22.8298168, -301.296021)
-	wait(.1)
-	game.Players.LocalPlayer.Backpack["[Grenade]"].Parent = game.Players.LocalPlayer.Character
-	wait(.2)
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()--1
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()
-	wait(.5)
-	local plr = game:GetService('Players').LocalPlayer.Character
-	plr.HumanoidRootPart.CFrame = CFrame.new(-412.752838, 22.8997784, -272.631897)
-	wait(.1)
-	game.Players.LocalPlayer.Backpack["[Grenade]"].Parent = game.Players.LocalPlayer.Character
-	wait(.2)
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()--2
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()
-	wait(.5)
-	local plr = game:GetService('Players').LocalPlayer.Character
-	plr.HumanoidRootPart.CFrame = CFrame.new(-435.342194, 22.973135, -284.16153)
-	wait(.1)
-	game.Players.LocalPlayer.Backpack["[Grenade]"].Parent = game.Players.LocalPlayer.Character
-	wait()
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()--3
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()
-	wait(.5)
-	local plr = game:GetService('Players').LocalPlayer.Character
-	plr.HumanoidRootPart.CFrame = CFrame.new(-445.356201, 23.2502365, -305.431549)
-	wait(.1)
-	game.Players.LocalPlayer.Backpack["[Grenade]"].Parent = game.Players.LocalPlayer.Character
-	wait(.2)
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()--4
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()
-	wait(.5)
-	local plr = game:GetService('Players').LocalPlayer.Character
-	plr.HumanoidRootPart.CFrame = CFrame.new(-447.578522, 23.006506, -267.881348)
-	wait(.1)
-	game.Players.LocalPlayer.Backpack["[Grenade]"].Parent = game.Players.LocalPlayer.Character
-	wait(.2)
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()--5
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()
-	wait(.5)
-	local plr = game:GetService('Players').LocalPlayer.Character
-	plr.HumanoidRootPart.CFrame = CFrame.new(-433.87262, 22.9691906, -284.660248)
-	wait(.1)
-	game.Players.LocalPlayer.Backpack["[Grenade]"].Parent = game.Players.LocalPlayer.Character
-	wait(.2)
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()--6
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()
-	wait(.5)
-	local plr = game:GetService('Players').LocalPlayer.Character
-	plr.HumanoidRootPart.CFrame = CFrame.new(-374.77774, 21.2499981, -314.836456)
-	wait(.1)
-	game.Players.LocalPlayer.Backpack["[Grenade]"].Parent = game.Players.LocalPlayer.Character
-	wait(.2)
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()--7
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()
-	wait(.5)
-	local plr = game:GetService('Players').LocalPlayer.Character
-	plr.HumanoidRootPart.CFrame = CFrame.new(-351.731567, 21.75, -310.013763)
-	wait(.1)
-	game.Players.LocalPlayer.Backpack["[Grenade]"].Parent = game.Players.LocalPlayer.Character
-	wait(.2)
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()--8
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()
-	wait(.5)
-	local plr = game:GetService('Players').LocalPlayer.Character
-	plr.HumanoidRootPart.CFrame = CFrame.new(-351.380676, 21.75, -287.039948)
-	wait(.1)
-	game.Players.LocalPlayer.Backpack["[Grenade]"].Parent = game.Players.LocalPlayer.Character
-	wait(.2)
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()--9
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()
-	wait(.5)
-	local plr = game:GetService('Players').LocalPlayer.Character
-	plr.HumanoidRootPart.CFrame = CFrame.new(-335.526611, 23.6826477, -297.345245)
-	wait(.1)
-	game.Players.LocalPlayer.Backpack["[Grenade]"].Parent = game.Players.LocalPlayer.Character
-	wait(.2)
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()--10
-	game.Players.LocalPlayer.Character:FindFirstChild("[Grenade]"):Activate()
-	wait(.3)
-	local plr = game:GetService('Players').LocalPlayer.Character
-	plr.HumanoidRootPart.CFrame = CFrame.new(-404.504028, 42.7823677, -401.828156)
-	end)
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "AMOGUS";
+		Text = "Anti stomp enabled."
+	})
+	pcall(function() if tostring(game.PlaceId) == "2788229376" then local corepackages = game:GetService"CorePackages" local localplayer = game:GetService"Players".LocalPlayer local run = game:GetService"RunService" run:BindToRenderStep("rrrrrrrrrrr",2000,function() pcall(function() if localplayer.Character.Humanoid.Health <= 30 then localplayer.Character.Humanoid:UnequipTools() localplayer.Character.Humanoid:Destroy() workspace.CurrentCamera.CameraSubject = localplayer.Character wait() local prt = Instance.new("Model", corepackages); Instance.new("Part", prt).Name="Torso"; Instance.new("Part", prt).Name="Head"; Instance.new("Humanoid", prt).Name="Humanoid"; localplayer.Character=prt end end) pcall(function() if localplayer.Character.Humanoid.FloorMaterial == "Plastic" then ReplicatedStorage:FireServer("Stomp") end end) end) 
+end end)
+end)
 	
-	btnss:Button("Buy 2 Brown Bags", function()
-	plr.Character.HumanoidRootPart.CFrame = CFrame.new(-315.765533, 51.1768951, -724.221436, -0.981149614, 3.22022586e-09, 0.193249956, -3.6379959e-09, 1, -3.5133997e-08, -0.193249956, -3.51747467e-08, -0.981149614)
-	wait(.1)
-	fireclickdetector(game.Workspace.Ignored.Shop['[BrownBag] - $25'].ClickDetector)
-	fireclickdetector(game.Workspace.Ignored.Shop['[BrownBag] - $25'].ClickDetector)
-	end)
-
+btnss:Button("Free Fists", function()
+wait(0) local A_1 = "-AMOGUS- Free Fist ENABLED " local A_2 = "All" local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1, A_2) 
+ 
+ 
+	local Players = game:GetService("Players")
+	local RunService = game:GetService("RunService")
+ 
+	local LocalPlayer = Players.LocalPlayer
+	local Mouse = LocalPlayer:GetMouse()
+ 
+	local Character = LocalPlayer.Character
+	local RightHand = Character.RightHand
+	local Character = LocalPlayer.Character
+	local LeftHand = Character.LeftHand
+ 
+	wait(3)
+ 
+	local Box = Instance.new("SelectionBox")
+	Box.LineThickness = 0.15
+	Box.Color3 = Color3.new(0, 1, 0.0313725)
+	Box.Adornee = RightHand
+	Box.Parent = RightHand
+ 
+	LeftHand.LeftWrist:Destroy() 
+ 
+	local Box = Instance.new("SelectionBox")
+	Box.LineThickness = 0.15
+	Box.Color3 = Color3.new(0.215686, 1, 0)
+	Box.Adornee = LeftHand
+	Box.Parent = LeftHand
+ 
+	RightHand.RightWrist:Destroy() 
+ 
+	while true do 
+		pcall(function()
+			RightHand.Position = Mouse.Hit.p
+			RightHand.Rotation = Vector3.new(0,0,0)
+			RightHand.Massless = true
+			LeftHand.Position = Mouse.Hit.p
+			LeftHand.Rotation = Vector3.new(0,0,0)
+			LeftHand.Massless = true
+		end)
+		pcall(function()
+			local Tool = Character:FindFirstChildOfClass("Tool")
+			Tool.Handle.Position = RightHand.Position
+			Tool.Handle.Position = LeftHand.Position
+		end)
+		RunService.RenderStepped:Wait()
+	end
+end)
